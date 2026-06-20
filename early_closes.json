@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-06-20T06:47:54+00:00",
+  "generated_utc": "2026-06-20T09:31:30+00:00",
   "horizon_days": 3650,
   "broker_time_note": "close_broker = ICMarkets server time = ET + 7h (constant). Compare to MQL5 TimeCurrent(). close_utc -> TimeGMT().",
   "symbols_note": "Match by base symbol; your broker may add a suffix (e.g. US500.cash) \u2014 match by prefix.",
@@ -139,22 +139,22 @@
       "date": "2026-07-03",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2026-07-03 21:30",
-      "close_utc": "2026-07-03T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2026-07-03 20:00",
+      "close_utc": "2026-07-03T17:00:00+00:00"
     },
     {
       "date": "2026-07-03",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -162,9 +162,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2026-07-03 21:30",
-      "close_utc": "2026-07-03T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2026-07-03 20:00",
+      "close_utc": "2026-07-03T17:00:00+00:00"
     },
     {
       "date": "2026-09-07",
@@ -193,7 +193,7 @@
       "date": "2026-09-07",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -208,7 +208,7 @@
       "date": "2026-09-07",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -247,22 +247,22 @@
       "date": "2026-11-26",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2026-11-26 21:30",
-      "close_utc": "2026-11-26T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2026-11-26 20:00",
+      "close_utc": "2026-11-26T18:00:00+00:00"
     },
     {
       "date": "2026-11-26",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -270,9 +270,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2026-11-26 21:30",
-      "close_utc": "2026-11-26T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2026-11-26 20:00",
+      "close_utc": "2026-11-26T18:00:00+00:00"
     },
     {
       "date": "2026-11-27",
@@ -301,22 +301,22 @@
       "date": "2026-11-27",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2026-11-27 20:45",
-      "close_utc": "2026-11-27T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2026-11-27 20:00",
+      "close_utc": "2026-11-27T18:00:00+00:00"
     },
     {
       "date": "2026-11-27",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -324,9 +324,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2026-11-27 20:45",
-      "close_utc": "2026-11-27T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2026-11-27 20:00",
+      "close_utc": "2026-11-27T18:00:00+00:00"
     },
     {
       "date": "2026-12-24",
@@ -613,22 +613,22 @@
       "date": "2027-01-18",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-01-18 21:30",
-      "close_utc": "2027-01-18T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-01-18 20:00",
+      "close_utc": "2027-01-18T18:00:00+00:00"
     },
     {
       "date": "2027-01-18",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -636,9 +636,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-01-18 21:30",
-      "close_utc": "2027-01-18T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-01-18 20:00",
+      "close_utc": "2027-01-18T18:00:00+00:00"
     },
     {
       "date": "2027-02-15",
@@ -667,22 +667,22 @@
       "date": "2027-02-15",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-02-15 21:30",
-      "close_utc": "2027-02-15T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-02-15 20:00",
+      "close_utc": "2027-02-15T18:00:00+00:00"
     },
     {
       "date": "2027-02-15",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -690,9 +690,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-02-15 21:30",
-      "close_utc": "2027-02-15T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-02-15 20:00",
+      "close_utc": "2027-02-15T18:00:00+00:00"
     },
     {
       "date": "2027-03-26",
@@ -744,22 +744,22 @@
       "date": "2027-05-31",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-05-31 21:30",
-      "close_utc": "2027-05-31T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-05-31 20:00",
+      "close_utc": "2027-05-31T17:00:00+00:00"
     },
     {
       "date": "2027-05-31",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -767,9 +767,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-05-31 21:30",
-      "close_utc": "2027-05-31T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-05-31 20:00",
+      "close_utc": "2027-05-31T17:00:00+00:00"
     },
     {
       "date": "2027-06-18",
@@ -798,22 +798,22 @@
       "date": "2027-06-18",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-06-18 21:30",
-      "close_utc": "2027-06-18T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-06-18 20:00",
+      "close_utc": "2027-06-18T17:00:00+00:00"
     },
     {
       "date": "2027-06-18",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -821,9 +821,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-06-18 21:30",
-      "close_utc": "2027-06-18T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-06-18 20:00",
+      "close_utc": "2027-06-18T17:00:00+00:00"
     },
     {
       "date": "2027-07-05",
@@ -852,22 +852,22 @@
       "date": "2027-07-05",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-07-05 21:30",
-      "close_utc": "2027-07-05T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-07-05 20:00",
+      "close_utc": "2027-07-05T17:00:00+00:00"
     },
     {
       "date": "2027-07-05",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -875,9 +875,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-07-05 21:30",
-      "close_utc": "2027-07-05T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-07-05 20:00",
+      "close_utc": "2027-07-05T17:00:00+00:00"
     },
     {
       "date": "2027-09-06",
@@ -906,7 +906,7 @@
       "date": "2027-09-06",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -921,7 +921,7 @@
       "date": "2027-09-06",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -960,22 +960,22 @@
       "date": "2027-11-25",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-11-25 21:30",
-      "close_utc": "2027-11-25T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-11-25 20:00",
+      "close_utc": "2027-11-25T18:00:00+00:00"
     },
     {
       "date": "2027-11-25",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -983,9 +983,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2027-11-25 21:30",
-      "close_utc": "2027-11-25T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-11-25 20:00",
+      "close_utc": "2027-11-25T18:00:00+00:00"
     },
     {
       "date": "2027-11-26",
@@ -1014,22 +1014,22 @@
       "date": "2027-11-26",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2027-11-26 20:45",
-      "close_utc": "2027-11-26T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-11-26 20:00",
+      "close_utc": "2027-11-26T18:00:00+00:00"
     },
     {
       "date": "2027-11-26",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1037,9 +1037,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2027-11-26 20:45",
-      "close_utc": "2027-11-26T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2027-11-26 20:00",
+      "close_utc": "2027-11-26T18:00:00+00:00"
     },
     {
       "date": "2027-12-24",
@@ -1280,22 +1280,22 @@
       "date": "2028-01-17",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-01-17 21:30",
-      "close_utc": "2028-01-17T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-01-17 20:00",
+      "close_utc": "2028-01-17T18:00:00+00:00"
     },
     {
       "date": "2028-01-17",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1303,9 +1303,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-01-17 21:30",
-      "close_utc": "2028-01-17T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-01-17 20:00",
+      "close_utc": "2028-01-17T18:00:00+00:00"
     },
     {
       "date": "2028-02-21",
@@ -1334,22 +1334,22 @@
       "date": "2028-02-21",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-02-21 21:30",
-      "close_utc": "2028-02-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-02-21 20:00",
+      "close_utc": "2028-02-21T18:00:00+00:00"
     },
     {
       "date": "2028-02-21",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1357,9 +1357,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-02-21 21:30",
-      "close_utc": "2028-02-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-02-21 20:00",
+      "close_utc": "2028-02-21T18:00:00+00:00"
     },
     {
       "date": "2028-04-14",
@@ -1411,22 +1411,22 @@
       "date": "2028-05-29",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-05-29 21:30",
-      "close_utc": "2028-05-29T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-05-29 20:00",
+      "close_utc": "2028-05-29T17:00:00+00:00"
     },
     {
       "date": "2028-05-29",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1434,9 +1434,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-05-29 21:30",
-      "close_utc": "2028-05-29T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-05-29 20:00",
+      "close_utc": "2028-05-29T17:00:00+00:00"
     },
     {
       "date": "2028-06-19",
@@ -1465,22 +1465,22 @@
       "date": "2028-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-06-19 21:30",
-      "close_utc": "2028-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-06-19 20:00",
+      "close_utc": "2028-06-19T17:00:00+00:00"
     },
     {
       "date": "2028-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1488,9 +1488,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-06-19 21:30",
-      "close_utc": "2028-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-06-19 20:00",
+      "close_utc": "2028-06-19T17:00:00+00:00"
     },
     {
       "date": "2028-07-03",
@@ -1542,22 +1542,22 @@
       "date": "2028-07-04",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-07-04 21:30",
-      "close_utc": "2028-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-07-04 20:00",
+      "close_utc": "2028-07-04T17:00:00+00:00"
     },
     {
       "date": "2028-07-04",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1565,9 +1565,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-07-04 21:30",
-      "close_utc": "2028-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-07-04 20:00",
+      "close_utc": "2028-07-04T17:00:00+00:00"
     },
     {
       "date": "2028-09-04",
@@ -1596,7 +1596,7 @@
       "date": "2028-09-04",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -1611,7 +1611,7 @@
       "date": "2028-09-04",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1650,22 +1650,22 @@
       "date": "2028-11-23",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-11-23 21:30",
-      "close_utc": "2028-11-23T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-11-23 20:00",
+      "close_utc": "2028-11-23T18:00:00+00:00"
     },
     {
       "date": "2028-11-23",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1673,9 +1673,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2028-11-23 21:30",
-      "close_utc": "2028-11-23T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-11-23 20:00",
+      "close_utc": "2028-11-23T18:00:00+00:00"
     },
     {
       "date": "2028-11-24",
@@ -1704,22 +1704,22 @@
       "date": "2028-11-24",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2028-11-24 20:45",
-      "close_utc": "2028-11-24T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-11-24 20:00",
+      "close_utc": "2028-11-24T18:00:00+00:00"
     },
     {
       "date": "2028-11-24",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1727,9 +1727,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2028-11-24 20:45",
-      "close_utc": "2028-11-24T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2028-11-24 20:00",
+      "close_utc": "2028-11-24T18:00:00+00:00"
     },
     {
       "date": "2028-12-22",
@@ -1907,22 +1907,22 @@
       "date": "2029-01-15",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-01-15 21:30",
-      "close_utc": "2029-01-15T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-01-15 20:00",
+      "close_utc": "2029-01-15T18:00:00+00:00"
     },
     {
       "date": "2029-01-15",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1930,9 +1930,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-01-15 21:30",
-      "close_utc": "2029-01-15T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-01-15 20:00",
+      "close_utc": "2029-01-15T18:00:00+00:00"
     },
     {
       "date": "2029-02-19",
@@ -1961,22 +1961,22 @@
       "date": "2029-02-19",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-02-19 21:30",
-      "close_utc": "2029-02-19T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-02-19 20:00",
+      "close_utc": "2029-02-19T18:00:00+00:00"
     },
     {
       "date": "2029-02-19",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -1984,9 +1984,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-02-19 21:30",
-      "close_utc": "2029-02-19T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-02-19 20:00",
+      "close_utc": "2029-02-19T18:00:00+00:00"
     },
     {
       "date": "2029-03-30",
@@ -2038,22 +2038,22 @@
       "date": "2029-05-28",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-05-28 21:30",
-      "close_utc": "2029-05-28T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-05-28 20:00",
+      "close_utc": "2029-05-28T17:00:00+00:00"
     },
     {
       "date": "2029-05-28",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2061,9 +2061,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-05-28 21:30",
-      "close_utc": "2029-05-28T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-05-28 20:00",
+      "close_utc": "2029-05-28T17:00:00+00:00"
     },
     {
       "date": "2029-06-19",
@@ -2092,22 +2092,22 @@
       "date": "2029-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-06-19 21:30",
-      "close_utc": "2029-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-06-19 20:00",
+      "close_utc": "2029-06-19T17:00:00+00:00"
     },
     {
       "date": "2029-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2115,9 +2115,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-06-19 21:30",
-      "close_utc": "2029-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-06-19 20:00",
+      "close_utc": "2029-06-19T17:00:00+00:00"
     },
     {
       "date": "2029-07-03",
@@ -2169,22 +2169,22 @@
       "date": "2029-07-04",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-07-04 21:30",
-      "close_utc": "2029-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-07-04 20:00",
+      "close_utc": "2029-07-04T17:00:00+00:00"
     },
     {
       "date": "2029-07-04",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2192,9 +2192,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-07-04 21:30",
-      "close_utc": "2029-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-07-04 20:00",
+      "close_utc": "2029-07-04T17:00:00+00:00"
     },
     {
       "date": "2029-09-03",
@@ -2223,7 +2223,7 @@
       "date": "2029-09-03",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -2238,7 +2238,7 @@
       "date": "2029-09-03",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2277,22 +2277,22 @@
       "date": "2029-11-22",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-11-22 21:30",
-      "close_utc": "2029-11-22T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-11-22 20:00",
+      "close_utc": "2029-11-22T18:00:00+00:00"
     },
     {
       "date": "2029-11-22",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2300,9 +2300,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2029-11-22 21:30",
-      "close_utc": "2029-11-22T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-11-22 20:00",
+      "close_utc": "2029-11-22T18:00:00+00:00"
     },
     {
       "date": "2029-11-23",
@@ -2331,22 +2331,22 @@
       "date": "2029-11-23",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2029-11-23 20:45",
-      "close_utc": "2029-11-23T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-11-23 20:00",
+      "close_utc": "2029-11-23T18:00:00+00:00"
     },
     {
       "date": "2029-11-23",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2354,9 +2354,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2029-11-23 20:45",
-      "close_utc": "2029-11-23T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2029-11-23 20:00",
+      "close_utc": "2029-11-23T18:00:00+00:00"
     },
     {
       "date": "2029-12-24",
@@ -2643,22 +2643,22 @@
       "date": "2030-01-21",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-01-21 21:30",
-      "close_utc": "2030-01-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-01-21 20:00",
+      "close_utc": "2030-01-21T18:00:00+00:00"
     },
     {
       "date": "2030-01-21",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2666,9 +2666,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-01-21 21:30",
-      "close_utc": "2030-01-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-01-21 20:00",
+      "close_utc": "2030-01-21T18:00:00+00:00"
     },
     {
       "date": "2030-02-18",
@@ -2697,22 +2697,22 @@
       "date": "2030-02-18",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-02-18 21:30",
-      "close_utc": "2030-02-18T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-02-18 20:00",
+      "close_utc": "2030-02-18T18:00:00+00:00"
     },
     {
       "date": "2030-02-18",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2720,9 +2720,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-02-18 21:30",
-      "close_utc": "2030-02-18T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-02-18 20:00",
+      "close_utc": "2030-02-18T18:00:00+00:00"
     },
     {
       "date": "2030-04-19",
@@ -2774,22 +2774,22 @@
       "date": "2030-05-27",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-05-27 21:30",
-      "close_utc": "2030-05-27T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-05-27 20:00",
+      "close_utc": "2030-05-27T17:00:00+00:00"
     },
     {
       "date": "2030-05-27",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2797,9 +2797,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-05-27 21:30",
-      "close_utc": "2030-05-27T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-05-27 20:00",
+      "close_utc": "2030-05-27T17:00:00+00:00"
     },
     {
       "date": "2030-06-19",
@@ -2828,22 +2828,22 @@
       "date": "2030-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-06-19 21:30",
-      "close_utc": "2030-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-06-19 20:00",
+      "close_utc": "2030-06-19T17:00:00+00:00"
     },
     {
       "date": "2030-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2851,9 +2851,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-06-19 21:30",
-      "close_utc": "2030-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-06-19 20:00",
+      "close_utc": "2030-06-19T17:00:00+00:00"
     },
     {
       "date": "2030-07-03",
@@ -2905,22 +2905,22 @@
       "date": "2030-07-04",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-07-04 21:30",
-      "close_utc": "2030-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-07-04 20:00",
+      "close_utc": "2030-07-04T17:00:00+00:00"
     },
     {
       "date": "2030-07-04",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -2928,9 +2928,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-07-04 21:30",
-      "close_utc": "2030-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-07-04 20:00",
+      "close_utc": "2030-07-04T17:00:00+00:00"
     },
     {
       "date": "2030-09-02",
@@ -2959,7 +2959,7 @@
       "date": "2030-09-02",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -2974,7 +2974,7 @@
       "date": "2030-09-02",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3013,22 +3013,22 @@
       "date": "2030-11-28",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-11-28 21:30",
-      "close_utc": "2030-11-28T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-11-28 20:00",
+      "close_utc": "2030-11-28T18:00:00+00:00"
     },
     {
       "date": "2030-11-28",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3036,9 +3036,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2030-11-28 21:30",
-      "close_utc": "2030-11-28T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-11-28 20:00",
+      "close_utc": "2030-11-28T18:00:00+00:00"
     },
     {
       "date": "2030-11-29",
@@ -3067,22 +3067,22 @@
       "date": "2030-11-29",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2030-11-29 20:45",
-      "close_utc": "2030-11-29T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-11-29 20:00",
+      "close_utc": "2030-11-29T18:00:00+00:00"
     },
     {
       "date": "2030-11-29",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3090,9 +3090,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2030-11-29 20:45",
-      "close_utc": "2030-11-29T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2030-11-29 20:00",
+      "close_utc": "2030-11-29T18:00:00+00:00"
     },
     {
       "date": "2030-12-24",
@@ -3379,22 +3379,22 @@
       "date": "2031-01-20",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-01-20 21:30",
-      "close_utc": "2031-01-20T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-01-20 20:00",
+      "close_utc": "2031-01-20T18:00:00+00:00"
     },
     {
       "date": "2031-01-20",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3402,9 +3402,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-01-20 21:30",
-      "close_utc": "2031-01-20T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-01-20 20:00",
+      "close_utc": "2031-01-20T18:00:00+00:00"
     },
     {
       "date": "2031-02-17",
@@ -3433,22 +3433,22 @@
       "date": "2031-02-17",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-02-17 21:30",
-      "close_utc": "2031-02-17T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-02-17 20:00",
+      "close_utc": "2031-02-17T18:00:00+00:00"
     },
     {
       "date": "2031-02-17",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3456,9 +3456,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-02-17 21:30",
-      "close_utc": "2031-02-17T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-02-17 20:00",
+      "close_utc": "2031-02-17T18:00:00+00:00"
     },
     {
       "date": "2031-04-11",
@@ -3510,22 +3510,22 @@
       "date": "2031-05-26",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-05-26 21:30",
-      "close_utc": "2031-05-26T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-05-26 20:00",
+      "close_utc": "2031-05-26T17:00:00+00:00"
     },
     {
       "date": "2031-05-26",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3533,9 +3533,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-05-26 21:30",
-      "close_utc": "2031-05-26T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-05-26 20:00",
+      "close_utc": "2031-05-26T17:00:00+00:00"
     },
     {
       "date": "2031-06-19",
@@ -3564,22 +3564,22 @@
       "date": "2031-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-06-19 21:30",
-      "close_utc": "2031-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-06-19 20:00",
+      "close_utc": "2031-06-19T17:00:00+00:00"
     },
     {
       "date": "2031-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3587,9 +3587,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-06-19 21:30",
-      "close_utc": "2031-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-06-19 20:00",
+      "close_utc": "2031-06-19T17:00:00+00:00"
     },
     {
       "date": "2031-07-03",
@@ -3641,22 +3641,22 @@
       "date": "2031-07-04",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-07-04 21:30",
-      "close_utc": "2031-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-07-04 20:00",
+      "close_utc": "2031-07-04T17:00:00+00:00"
     },
     {
       "date": "2031-07-04",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3664,9 +3664,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-07-04 21:30",
-      "close_utc": "2031-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-07-04 20:00",
+      "close_utc": "2031-07-04T17:00:00+00:00"
     },
     {
       "date": "2031-09-01",
@@ -3695,7 +3695,7 @@
       "date": "2031-09-01",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -3710,7 +3710,7 @@
       "date": "2031-09-01",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3749,22 +3749,22 @@
       "date": "2031-11-27",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-11-27 21:30",
-      "close_utc": "2031-11-27T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-11-27 20:00",
+      "close_utc": "2031-11-27T18:00:00+00:00"
     },
     {
       "date": "2031-11-27",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3772,9 +3772,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2031-11-27 21:30",
-      "close_utc": "2031-11-27T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-11-27 20:00",
+      "close_utc": "2031-11-27T18:00:00+00:00"
     },
     {
       "date": "2031-11-28",
@@ -3803,22 +3803,22 @@
       "date": "2031-11-28",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2031-11-28 20:45",
-      "close_utc": "2031-11-28T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-11-28 20:00",
+      "close_utc": "2031-11-28T18:00:00+00:00"
     },
     {
       "date": "2031-11-28",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -3826,9 +3826,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2031-11-28 20:45",
-      "close_utc": "2031-11-28T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2031-11-28 20:00",
+      "close_utc": "2031-11-28T18:00:00+00:00"
     },
     {
       "date": "2031-12-24",
@@ -4115,22 +4115,22 @@
       "date": "2032-01-19",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-01-19 21:30",
-      "close_utc": "2032-01-19T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-01-19 20:00",
+      "close_utc": "2032-01-19T18:00:00+00:00"
     },
     {
       "date": "2032-01-19",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4138,9 +4138,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-01-19 21:30",
-      "close_utc": "2032-01-19T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-01-19 20:00",
+      "close_utc": "2032-01-19T18:00:00+00:00"
     },
     {
       "date": "2032-02-16",
@@ -4169,22 +4169,22 @@
       "date": "2032-02-16",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-02-16 21:30",
-      "close_utc": "2032-02-16T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-02-16 20:00",
+      "close_utc": "2032-02-16T18:00:00+00:00"
     },
     {
       "date": "2032-02-16",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4192,9 +4192,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-02-16 21:30",
-      "close_utc": "2032-02-16T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-02-16 20:00",
+      "close_utc": "2032-02-16T18:00:00+00:00"
     },
     {
       "date": "2032-03-26",
@@ -4246,22 +4246,22 @@
       "date": "2032-05-31",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-05-31 21:30",
-      "close_utc": "2032-05-31T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-05-31 20:00",
+      "close_utc": "2032-05-31T17:00:00+00:00"
     },
     {
       "date": "2032-05-31",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4269,9 +4269,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-05-31 21:30",
-      "close_utc": "2032-05-31T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-05-31 20:00",
+      "close_utc": "2032-05-31T17:00:00+00:00"
     },
     {
       "date": "2032-06-18",
@@ -4300,22 +4300,22 @@
       "date": "2032-06-18",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-06-18 21:30",
-      "close_utc": "2032-06-18T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-06-18 20:00",
+      "close_utc": "2032-06-18T17:00:00+00:00"
     },
     {
       "date": "2032-06-18",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4323,9 +4323,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-06-18 21:30",
-      "close_utc": "2032-06-18T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-06-18 20:00",
+      "close_utc": "2032-06-18T17:00:00+00:00"
     },
     {
       "date": "2032-07-05",
@@ -4354,22 +4354,22 @@
       "date": "2032-07-05",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-07-05 21:30",
-      "close_utc": "2032-07-05T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-07-05 20:00",
+      "close_utc": "2032-07-05T17:00:00+00:00"
     },
     {
       "date": "2032-07-05",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4377,9 +4377,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-07-05 21:30",
-      "close_utc": "2032-07-05T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-07-05 20:00",
+      "close_utc": "2032-07-05T17:00:00+00:00"
     },
     {
       "date": "2032-09-06",
@@ -4408,7 +4408,7 @@
       "date": "2032-09-06",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -4423,7 +4423,7 @@
       "date": "2032-09-06",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4462,22 +4462,22 @@
       "date": "2032-11-25",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-11-25 21:30",
-      "close_utc": "2032-11-25T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-11-25 20:00",
+      "close_utc": "2032-11-25T18:00:00+00:00"
     },
     {
       "date": "2032-11-25",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4485,9 +4485,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2032-11-25 21:30",
-      "close_utc": "2032-11-25T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-11-25 20:00",
+      "close_utc": "2032-11-25T18:00:00+00:00"
     },
     {
       "date": "2032-11-26",
@@ -4516,22 +4516,22 @@
       "date": "2032-11-26",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2032-11-26 20:45",
-      "close_utc": "2032-11-26T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-11-26 20:00",
+      "close_utc": "2032-11-26T18:00:00+00:00"
     },
     {
       "date": "2032-11-26",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4539,9 +4539,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2032-11-26 20:45",
-      "close_utc": "2032-11-26T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2032-11-26 20:00",
+      "close_utc": "2032-11-26T18:00:00+00:00"
     },
     {
       "date": "2032-12-24",
@@ -4782,22 +4782,22 @@
       "date": "2033-01-17",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-01-17 21:30",
-      "close_utc": "2033-01-17T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-01-17 20:00",
+      "close_utc": "2033-01-17T18:00:00+00:00"
     },
     {
       "date": "2033-01-17",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4805,9 +4805,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-01-17 21:30",
-      "close_utc": "2033-01-17T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-01-17 20:00",
+      "close_utc": "2033-01-17T18:00:00+00:00"
     },
     {
       "date": "2033-02-21",
@@ -4836,22 +4836,22 @@
       "date": "2033-02-21",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-02-21 21:30",
-      "close_utc": "2033-02-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-02-21 20:00",
+      "close_utc": "2033-02-21T18:00:00+00:00"
     },
     {
       "date": "2033-02-21",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4859,9 +4859,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-02-21 21:30",
-      "close_utc": "2033-02-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-02-21 20:00",
+      "close_utc": "2033-02-21T18:00:00+00:00"
     },
     {
       "date": "2033-04-15",
@@ -4913,22 +4913,22 @@
       "date": "2033-05-30",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-05-30 21:30",
-      "close_utc": "2033-05-30T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-05-30 20:00",
+      "close_utc": "2033-05-30T17:00:00+00:00"
     },
     {
       "date": "2033-05-30",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4936,9 +4936,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-05-30 21:30",
-      "close_utc": "2033-05-30T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-05-30 20:00",
+      "close_utc": "2033-05-30T17:00:00+00:00"
     },
     {
       "date": "2033-06-20",
@@ -4967,22 +4967,22 @@
       "date": "2033-06-20",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-06-20 21:30",
-      "close_utc": "2033-06-20T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-06-20 20:00",
+      "close_utc": "2033-06-20T17:00:00+00:00"
     },
     {
       "date": "2033-06-20",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -4990,9 +4990,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-06-20 21:30",
-      "close_utc": "2033-06-20T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-06-20 20:00",
+      "close_utc": "2033-06-20T17:00:00+00:00"
     },
     {
       "date": "2033-07-04",
@@ -5021,22 +5021,22 @@
       "date": "2033-07-04",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-07-04 21:30",
-      "close_utc": "2033-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-07-04 20:00",
+      "close_utc": "2033-07-04T17:00:00+00:00"
     },
     {
       "date": "2033-07-04",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5044,9 +5044,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-07-04 21:30",
-      "close_utc": "2033-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-07-04 20:00",
+      "close_utc": "2033-07-04T17:00:00+00:00"
     },
     {
       "date": "2033-09-05",
@@ -5075,7 +5075,7 @@
       "date": "2033-09-05",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -5090,7 +5090,7 @@
       "date": "2033-09-05",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5129,22 +5129,22 @@
       "date": "2033-11-24",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-11-24 21:30",
-      "close_utc": "2033-11-24T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-11-24 20:00",
+      "close_utc": "2033-11-24T18:00:00+00:00"
     },
     {
       "date": "2033-11-24",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5152,9 +5152,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2033-11-24 21:30",
-      "close_utc": "2033-11-24T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-11-24 20:00",
+      "close_utc": "2033-11-24T18:00:00+00:00"
     },
     {
       "date": "2033-11-25",
@@ -5183,22 +5183,22 @@
       "date": "2033-11-25",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2033-11-25 20:45",
-      "close_utc": "2033-11-25T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-11-25 20:00",
+      "close_utc": "2033-11-25T18:00:00+00:00"
     },
     {
       "date": "2033-11-25",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5206,9 +5206,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2033-11-25 20:45",
-      "close_utc": "2033-11-25T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2033-11-25 20:00",
+      "close_utc": "2033-11-25T18:00:00+00:00"
     },
     {
       "date": "2033-12-23",
@@ -5386,22 +5386,22 @@
       "date": "2034-01-16",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-01-16 21:30",
-      "close_utc": "2034-01-16T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-01-16 20:00",
+      "close_utc": "2034-01-16T18:00:00+00:00"
     },
     {
       "date": "2034-01-16",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5409,9 +5409,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-01-16 21:30",
-      "close_utc": "2034-01-16T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-01-16 20:00",
+      "close_utc": "2034-01-16T18:00:00+00:00"
     },
     {
       "date": "2034-02-20",
@@ -5440,22 +5440,22 @@
       "date": "2034-02-20",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-02-20 21:30",
-      "close_utc": "2034-02-20T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-02-20 20:00",
+      "close_utc": "2034-02-20T18:00:00+00:00"
     },
     {
       "date": "2034-02-20",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5463,9 +5463,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-02-20 21:30",
-      "close_utc": "2034-02-20T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-02-20 20:00",
+      "close_utc": "2034-02-20T18:00:00+00:00"
     },
     {
       "date": "2034-04-07",
@@ -5517,22 +5517,22 @@
       "date": "2034-05-29",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-05-29 21:30",
-      "close_utc": "2034-05-29T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-05-29 20:00",
+      "close_utc": "2034-05-29T17:00:00+00:00"
     },
     {
       "date": "2034-05-29",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5540,9 +5540,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-05-29 21:30",
-      "close_utc": "2034-05-29T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-05-29 20:00",
+      "close_utc": "2034-05-29T17:00:00+00:00"
     },
     {
       "date": "2034-06-19",
@@ -5571,22 +5571,22 @@
       "date": "2034-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-06-19 21:30",
-      "close_utc": "2034-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-06-19 20:00",
+      "close_utc": "2034-06-19T17:00:00+00:00"
     },
     {
       "date": "2034-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5594,9 +5594,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-06-19 21:30",
-      "close_utc": "2034-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-06-19 20:00",
+      "close_utc": "2034-06-19T17:00:00+00:00"
     },
     {
       "date": "2034-07-03",
@@ -5648,22 +5648,22 @@
       "date": "2034-07-04",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-07-04 21:30",
-      "close_utc": "2034-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-07-04 20:00",
+      "close_utc": "2034-07-04T17:00:00+00:00"
     },
     {
       "date": "2034-07-04",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5671,9 +5671,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-07-04 21:30",
-      "close_utc": "2034-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-07-04 20:00",
+      "close_utc": "2034-07-04T17:00:00+00:00"
     },
     {
       "date": "2034-09-04",
@@ -5702,7 +5702,7 @@
       "date": "2034-09-04",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -5717,7 +5717,7 @@
       "date": "2034-09-04",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5756,22 +5756,22 @@
       "date": "2034-11-23",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-11-23 21:30",
-      "close_utc": "2034-11-23T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-11-23 20:00",
+      "close_utc": "2034-11-23T18:00:00+00:00"
     },
     {
       "date": "2034-11-23",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5779,9 +5779,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2034-11-23 21:30",
-      "close_utc": "2034-11-23T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-11-23 20:00",
+      "close_utc": "2034-11-23T18:00:00+00:00"
     },
     {
       "date": "2034-11-24",
@@ -5810,22 +5810,22 @@
       "date": "2034-11-24",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2034-11-24 20:45",
-      "close_utc": "2034-11-24T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-11-24 20:00",
+      "close_utc": "2034-11-24T18:00:00+00:00"
     },
     {
       "date": "2034-11-24",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -5833,9 +5833,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2034-11-24 20:45",
-      "close_utc": "2034-11-24T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2034-11-24 20:00",
+      "close_utc": "2034-11-24T18:00:00+00:00"
     },
     {
       "date": "2034-12-22",
@@ -6013,22 +6013,22 @@
       "date": "2035-01-15",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-01-15 21:30",
-      "close_utc": "2035-01-15T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-01-15 20:00",
+      "close_utc": "2035-01-15T18:00:00+00:00"
     },
     {
       "date": "2035-01-15",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6036,9 +6036,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-01-15 21:30",
-      "close_utc": "2035-01-15T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-01-15 20:00",
+      "close_utc": "2035-01-15T18:00:00+00:00"
     },
     {
       "date": "2035-02-19",
@@ -6067,22 +6067,22 @@
       "date": "2035-02-19",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-02-19 21:30",
-      "close_utc": "2035-02-19T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-02-19 20:00",
+      "close_utc": "2035-02-19T18:00:00+00:00"
     },
     {
       "date": "2035-02-19",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6090,9 +6090,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-02-19 21:30",
-      "close_utc": "2035-02-19T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-02-19 20:00",
+      "close_utc": "2035-02-19T18:00:00+00:00"
     },
     {
       "date": "2035-03-23",
@@ -6144,22 +6144,22 @@
       "date": "2035-05-28",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-05-28 21:30",
-      "close_utc": "2035-05-28T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-05-28 20:00",
+      "close_utc": "2035-05-28T17:00:00+00:00"
     },
     {
       "date": "2035-05-28",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6167,9 +6167,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-05-28 21:30",
-      "close_utc": "2035-05-28T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-05-28 20:00",
+      "close_utc": "2035-05-28T17:00:00+00:00"
     },
     {
       "date": "2035-06-19",
@@ -6198,22 +6198,22 @@
       "date": "2035-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-06-19 21:30",
-      "close_utc": "2035-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-06-19 20:00",
+      "close_utc": "2035-06-19T17:00:00+00:00"
     },
     {
       "date": "2035-06-19",
       "reason": "Juneteenth Starting at 2022",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6221,9 +6221,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-06-19 21:30",
-      "close_utc": "2035-06-19T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-06-19 20:00",
+      "close_utc": "2035-06-19T17:00:00+00:00"
     },
     {
       "date": "2035-07-03",
@@ -6275,22 +6275,22 @@
       "date": "2035-07-04",
       "reason": "July 4th",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-07-04 21:30",
-      "close_utc": "2035-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-07-04 20:00",
+      "close_utc": "2035-07-04T17:00:00+00:00"
     },
     {
       "date": "2035-07-04",
       "reason": "July 4th",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6298,9 +6298,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-07-04 21:30",
-      "close_utc": "2035-07-04T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-07-04 20:00",
+      "close_utc": "2035-07-04T17:00:00+00:00"
     },
     {
       "date": "2035-09-03",
@@ -6329,7 +6329,7 @@
       "date": "2035-09-03",
       "reason": "Labor Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
@@ -6344,7 +6344,7 @@
       "date": "2035-09-03",
       "reason": "Labor Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6383,22 +6383,22 @@
       "date": "2035-11-22",
       "reason": "Thanksgiving",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-11-22 21:30",
-      "close_utc": "2035-11-22T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-11-22 20:00",
+      "close_utc": "2035-11-22T18:00:00+00:00"
     },
     {
       "date": "2035-11-22",
       "reason": "Thanksgiving",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6406,9 +6406,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2035-11-22 21:30",
-      "close_utc": "2035-11-22T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-11-22 20:00",
+      "close_utc": "2035-11-22T18:00:00+00:00"
     },
     {
       "date": "2035-11-23",
@@ -6437,22 +6437,22 @@
       "date": "2035-11-23",
       "reason": "US holiday",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2035-11-23 20:45",
-      "close_utc": "2035-11-23T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-11-23 20:00",
+      "close_utc": "2035-11-23T18:00:00+00:00"
     },
     {
       "date": "2035-11-23",
       "reason": "US holiday",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6460,9 +6460,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "13:45",
-      "close_broker": "2035-11-23 20:45",
-      "close_utc": "2035-11-23T18:45:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2035-11-23 20:00",
+      "close_utc": "2035-11-23T18:00:00+00:00"
     },
     {
       "date": "2035-12-24",
@@ -6749,22 +6749,22 @@
       "date": "2036-01-21",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2036-01-21 21:30",
-      "close_utc": "2036-01-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2036-01-21 20:00",
+      "close_utc": "2036-01-21T18:00:00+00:00"
     },
     {
       "date": "2036-01-21",
       "reason": "Dr. Martin Luther King Jr. Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6772,9 +6772,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2036-01-21 21:30",
-      "close_utc": "2036-01-21T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2036-01-21 20:00",
+      "close_utc": "2036-01-21T18:00:00+00:00"
     },
     {
       "date": "2036-02-18",
@@ -6803,22 +6803,22 @@
       "date": "2036-02-18",
       "reason": "Presidents Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2036-02-18 21:30",
-      "close_utc": "2036-02-18T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2036-02-18 20:00",
+      "close_utc": "2036-02-18T18:00:00+00:00"
     },
     {
       "date": "2036-02-18",
       "reason": "Presidents Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6826,9 +6826,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2036-02-18 21:30",
-      "close_utc": "2036-02-18T19:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2036-02-18 20:00",
+      "close_utc": "2036-02-18T18:00:00+00:00"
     },
     {
       "date": "2036-04-11",
@@ -6880,22 +6880,22 @@
       "date": "2036-05-26",
       "reason": "Memorial Day",
       "kind": "commodity_metals",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "XAGUSD",
         "XAUUSD",
         "XPDUSD",
         "XPTUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2036-05-26 21:30",
-      "close_utc": "2036-05-26T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2036-05-26 20:00",
+      "close_utc": "2036-05-26T17:00:00+00:00"
     },
     {
       "date": "2036-05-26",
       "reason": "Memorial Day",
       "kind": "commodity_energy",
-      "exchange": "CME Globex",
+      "exchange": "ICMarkets (US holiday)",
       "symbols": [
         "UKOIL",
         "USOIL",
@@ -6903,9 +6903,9 @@
         "XNGUSD",
         "XTIUSD"
       ],
-      "close_local": "14:30",
-      "close_broker": "2036-05-26 21:30",
-      "close_utc": "2036-05-26T18:30:00+00:00"
+      "close_local": "13:00",
+      "close_broker": "2036-05-26 20:00",
+      "close_utc": "2036-05-26T17:00:00+00:00"
     }
   ],
   "maintenance": [
