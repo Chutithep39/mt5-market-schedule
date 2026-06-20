@@ -20,16 +20,25 @@ https://raw.githubusercontent.com/Chutithep39/mt5-market-schedule/main/early_clo
 ```jsonc
 {
   "schema_version": 1,
-  "generated_utc": "2026-06-20T06:24:16+00:00",
+  "generated_utc": "2026-06-20T06:34:31+00:00",
   "horizon_days": 400,
-  "asset_classes": { "us_index": [...], "metals": [...], "energy": [...] },
+  "asset_classes": {
+    "us_index":   [...],   // US500, USTEC, US30, US2000, ...
+    "intl_index": [...],   // DE40, UK100, FRA40, ES35, NETH25, SWI20, EU50, JP225, AUS200, HK50, CHINA50, ...
+    "metals":     [...],   // XAUUSD, XAGUSD, XPTUSD, XPDUSD
+    "energy":     [...],   // XTIUSD, XBRUSD, XNGUSD
+    "forex":      [...],   // 28 standard pairs
+    "index_uncovered": ["IT40", "SA40"]  // no reliable exchange calendar
+  },
+  "forex_note": "Spot FX trades 24/5 — no exchange calendar; only Christmas/New Year reductions (broker-published). Not in early_closes yet.",
   "early_closes": [
     {
       "date": "2026-07-03",
       "reason": "July 4th",
-      "kind": "us_holiday",            // us_holiday | us_half_day | commodity_metals | commodity_energy
+      "kind": "us_holiday",            // us_holiday | us_half_day | commodity_metals | commodity_energy | intl_index
+      "exchange": "US (NYSE futures)",
       "symbols": ["US500", "USTEC", ...],
-      "close_et": "13:00",
+      "close_local": "13:00",          // close time in the exchange's local tz
       "close_broker": "2026-07-03 20:00", // ICMarkets server time = ET + 7h  -> MQL5 TimeCurrent()
       "close_utc": "2026-07-03T17:00:00+00:00" //                              -> MQL5 TimeGMT()
     }
