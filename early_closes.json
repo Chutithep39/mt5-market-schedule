@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-07-03T09:03:49+00:00",
+  "generated_utc": "2026-07-04T05:40:39+00:00",
   "horizon_days": 3650,
   "broker_time_note": "close_broker = ICMarkets server time = ET + 7h (constant). Compare to MQL5 TimeCurrent(). close_utc -> TimeGMT().",
   "symbols_note": "Match by base symbol; your broker may add a suffix (e.g. US500.cash) \u2014 match by prefix.",
@@ -112,60 +112,6 @@
   },
   "forex_note": "Spot FX trades 24/5 \u2014 no exchange calendar. The only reductions are Christmas/New Year, published by ICMarkets (broker-specific). FX early closes are NOT in early_closes yet \u2014 pending the ICMarkets holiday-hours source.",
   "early_closes": [
-    {
-      "date": "2026-07-03",
-      "reason": "July 4th",
-      "kind": "us_holiday",
-      "exchange": "US (NYSE futures)",
-      "symbols": [
-        "DJI",
-        "NAS100",
-        "NAS100FT",
-        "NDX",
-        "SPX",
-        "SPX500",
-        "US2000",
-        "US30",
-        "US500",
-        "USIDX",
-        "USTEC",
-        "USTECH"
-      ],
-      "close_local": "13:00",
-      "close_broker": "2026-07-03 20:00",
-      "close_utc": "2026-07-03T17:00:00+00:00"
-    },
-    {
-      "date": "2026-07-03",
-      "reason": "July 4th",
-      "kind": "commodity_metals",
-      "exchange": "ICMarkets (US holiday)",
-      "symbols": [
-        "XAGUSD",
-        "XAUUSD",
-        "XPDUSD",
-        "XPTUSD"
-      ],
-      "close_local": "13:00",
-      "close_broker": "2026-07-03 20:00",
-      "close_utc": "2026-07-03T17:00:00+00:00"
-    },
-    {
-      "date": "2026-07-03",
-      "reason": "July 4th",
-      "kind": "commodity_energy",
-      "exchange": "ICMarkets (US holiday)",
-      "symbols": [
-        "UKOIL",
-        "USOIL",
-        "XBRUSD",
-        "XNGUSD",
-        "XTIUSD"
-      ],
-      "close_local": "13:00",
-      "close_broker": "2026-07-03 20:00",
-      "close_utc": "2026-07-03T17:00:00+00:00"
-    },
     {
       "date": "2026-09-07",
       "reason": "Labor Day",
