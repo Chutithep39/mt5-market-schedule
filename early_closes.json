@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-08-02T21:35:26+00:00",
+  "generated_utc": "2026-08-21T06:42:39+00:00",
   "horizon_days": 3650,
   "broker_time_note": "close_broker = ICMarkets server time = ET + 7h (constant). Compare to MQL5 TimeCurrent(). close_utc -> TimeGMT().",
   "symbols_note": "Match by base symbol; your broker may add a suffix (e.g. US500.cash) \u2014 match by prefix.",
@@ -6985,5 +6985,46 @@
       "close_utc": "2036-07-04T17:00:00+00:00"
     }
   ],
-  "maintenance": []
+  "maintenance": [
+    {
+      "reason": "ICMarkets server maintenance",
+      "servers": "All MT Demo Servers",
+      "all_mt5": false,
+      "kind": "maintenance",
+      "start_utc": "2026-08-21T23:00:00+00:00",
+      "end_utc": "2026-08-22T15:00:00+00:00",
+      "start_broker": "2026-08-22 02:00",
+      "end_broker": "2026-08-22 18:00"
+    },
+    {
+      "reason": "ICMarkets server maintenance",
+      "servers": "LD-NY",
+      "all_mt5": false,
+      "kind": "maintenance",
+      "start_utc": "2026-08-22T02:00:00+00:00",
+      "end_utc": "2026-08-22T02:30:00+00:00",
+      "start_broker": "2026-08-22 05:00",
+      "end_broker": "2026-08-22 05:30"
+    },
+    {
+      "reason": "ICMarkets server maintenance",
+      "servers": "MT4 Live1, MT4 Live29, MT5-4 and MT5-6",
+      "all_mt5": false,
+      "kind": "maintenance",
+      "start_utc": "2026-08-22T07:00:00+00:00",
+      "end_utc": "2026-08-22T11:00:00+00:00",
+      "start_broker": "2026-08-22 10:00",
+      "end_broker": "2026-08-22 14:00"
+    },
+    {
+      "reason": "ICMarkets server maintenance",
+      "servers": "ALL MT5 Servers",
+      "all_mt5": true,
+      "kind": "maintenance",
+      "start_utc": "2026-08-22T23:10:00+00:00",
+      "end_utc": "2026-08-23T02:30:00+00:00",
+      "start_broker": "2026-08-23 02:10",
+      "end_broker": "2026-08-23 05:30"
+    }
+  ]
 }
