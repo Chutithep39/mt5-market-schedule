@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-08-31T08:32:46+00:00",
+  "generated_utc": "2026-09-04T05:59:27+00:00",
   "horizon_days": 3650,
   "broker_time_note": "close_broker = ICMarkets server time = ET + 7h (constant). Compare to MQL5 TimeCurrent(). close_utc -> TimeGMT().",
   "symbols_note": "Match by base symbol; your broker may add a suffix (e.g. US500.cash) \u2014 match by prefix.",
@@ -6983,7 +6983,92 @@
       "close_local": "13:00",
       "close_broker": "2036-07-04 20:00",
       "close_utc": "2036-07-04T17:00:00+00:00"
+    },
+    {
+      "date": "2036-09-01",
+      "reason": "Labor Day",
+      "kind": "us_holiday",
+      "exchange": "US (NYSE futures)",
+      "symbols": [
+        "DJI",
+        "NAS100",
+        "NAS100FT",
+        "NDX",
+        "SPX",
+        "SPX500",
+        "US2000",
+        "US30",
+        "US500",
+        "USIDX",
+        "USTEC",
+        "USTECH"
+      ],
+      "close_local": "13:00",
+      "close_broker": "2036-09-01 20:00",
+      "close_utc": "2036-09-01T17:00:00+00:00"
+    },
+    {
+      "date": "2036-09-01",
+      "reason": "Labor Day",
+      "kind": "commodity_metals",
+      "exchange": "ICMarkets (US holiday)",
+      "symbols": [
+        "XAGUSD",
+        "XAUUSD",
+        "XPDUSD",
+        "XPTUSD"
+      ],
+      "close_local": "13:00",
+      "close_broker": "2036-09-01 20:00",
+      "close_utc": "2036-09-01T17:00:00+00:00"
+    },
+    {
+      "date": "2036-09-01",
+      "reason": "Labor Day",
+      "kind": "commodity_energy",
+      "exchange": "ICMarkets (US holiday)",
+      "symbols": [
+        "UKOIL",
+        "USOIL",
+        "XBRUSD",
+        "XNGUSD",
+        "XTIUSD"
+      ],
+      "close_local": "13:00",
+      "close_broker": "2036-09-01 20:00",
+      "close_utc": "2036-09-01T17:00:00+00:00"
     }
   ],
-  "maintenance": []
+  "maintenance": [
+    {
+      "reason": "ICMarkets server maintenance",
+      "servers": "All cTrader Servers",
+      "all_mt5": false,
+      "kind": "maintenance",
+      "start_utc": "2026-09-05T05:00:00+00:00",
+      "end_utc": "2026-09-05T19:00:00+00:00",
+      "start_broker": "2026-09-05 08:00",
+      "end_broker": "2026-09-05 22:00"
+    },
+    {
+      "reason": "ICMarkets server maintenance",
+      "servers": "MT4 Live #4 , #6 , #7 , #8 , #25 and #26",
+      "all_mt5": false,
+      "kind": "maintenance",
+      "start_utc": "2026-09-05T10:00:00+00:00",
+      "end_utc": "2026-09-05T16:00:00+00:00",
+      "start_broker": "2026-09-05 13:00",
+      "end_broker": "2026-09-05 19:00"
+    },
+    {
+      "reason": "ICMarkets server maintenance",
+      "servers": "ALL MT5 Servers",
+      "all_mt5": true,
+      "kind": "maintenance",
+      "start_utc": "2026-09-05T23:10:00+00:00",
+      "end_utc": "2026-09-06T02:30:00+00:00",
+      "start_broker": "2026-09-06 02:10",
+      "end_broker": "2026-09-06 05:30"
+    }
+  ]
 }
