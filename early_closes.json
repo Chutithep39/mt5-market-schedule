@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-09-11T06:38:11+00:00",
+  "generated_utc": "2026-09-12T19:22:06+00:00",
   "horizon_days": 3650,
   "broker_time_note": "close_broker = ICMarkets server time = ET + 7h (constant). Compare to MQL5 TimeCurrent(). close_utc -> TimeGMT().",
   "symbols_note": "Match by base symbol; your broker may add a suffix (e.g. US500.cash) \u2014 match by prefix.",
@@ -6986,26 +6986,6 @@
     }
   ],
   "maintenance": [
-    {
-      "reason": "ICMarkets server maintenance",
-      "servers": "MT5-6 Server",
-      "all_mt5": false,
-      "kind": "maintenance",
-      "start_utc": "2026-09-12T08:00:00+00:00",
-      "end_utc": "2026-09-12T10:00:00+00:00",
-      "start_broker": "2026-09-12 11:00",
-      "end_broker": "2026-09-12 13:00"
-    },
-    {
-      "reason": "ICMarkets server maintenance",
-      "servers": "LD",
-      "all_mt5": false,
-      "kind": "maintenance",
-      "start_utc": "2026-09-12T12:00:00+00:00",
-      "end_utc": "2026-09-12T14:00:00+00:00",
-      "start_broker": "2026-09-12 15:00",
-      "end_broker": "2026-09-12 17:00"
-    },
     {
       "reason": "ICMarkets server maintenance",
       "servers": "ALL MT5 Servers",
